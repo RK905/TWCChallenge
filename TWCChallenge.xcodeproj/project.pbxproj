@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		A36922161B97744D002C9DC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A36922151B97744D002C9DC7 /* main.m */; };
 		A36922191B97744D002C9DC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A36922181B97744D002C9DC7 /* AppDelegate.m */; };
-		A369221C1B97744D002C9DC7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A369221B1B97744D002C9DC7 /* ViewController.m */; };
 		A369221F1B97744D002C9DC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A369221D1B97744D002C9DC7 /* Main.storyboard */; };
 		A36922211B97744D002C9DC7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A36922201B97744D002C9DC7 /* Images.xcassets */; };
 		A36922241B97744D002C9DC7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A36922221B97744D002C9DC7 /* LaunchScreen.xib */; };
 		A36922301B97744D002C9DC7 /* TWCChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A369222F1B97744D002C9DC7 /* TWCChallengeTests.m */; };
+		A369223D1B977633002C9DC7 /* VideoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A369223C1B977633002C9DC7 /* VideoTableViewController.m */; };
+		A36922411B9776B6002C9DC7 /* VideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A36922401B9776B6002C9DC7 /* VideoCell.m */; };
+		E3FADE4C44731965F91EC2C4 /* libPods-TWCChallenge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4A40AF82312E1EE1DAC0C3 /* libPods-TWCChallenge.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +29,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17572FC2056F5475C6C73AFD /* Pods-TWCChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWCChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TWCChallenge/Pods-TWCChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		8D4A40AF82312E1EE1DAC0C3 /* libPods-TWCChallenge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TWCChallenge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A36922101B97744D002C9DC7 /* TWCChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TWCChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A36922141B97744D002C9DC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A36922151B97744D002C9DC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A36922171B97744D002C9DC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A36922181B97744D002C9DC7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A369221A1B97744D002C9DC7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A369221B1B97744D002C9DC7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A369221E1B97744D002C9DC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A36922201B97744D002C9DC7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A36922231B97744D002C9DC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A36922291B97744D002C9DC7 /* TWCChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TWCChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A369222E1B97744D002C9DC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A369222F1B97744D002C9DC7 /* TWCChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWCChallengeTests.m; sourceTree = "<group>"; };
+		A369223B1B977633002C9DC7 /* VideoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoTableViewController.h; sourceTree = "<group>"; };
+		A369223C1B977633002C9DC7 /* VideoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoTableViewController.m; sourceTree = "<group>"; };
+		A369223F1B9776B6002C9DC7 /* VideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCell.h; sourceTree = "<group>"; };
+		A36922401B9776B6002C9DC7 /* VideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCell.m; sourceTree = "<group>"; };
+		B79118A5A273C3698F5B6E66 /* Pods-TWCChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWCChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-TWCChallenge/Pods-TWCChallenge.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3FADE4C44731965F91EC2C4 /* libPods-TWCChallenge.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +68,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4CE1E7BD892257D5E50D7197 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D4A40AF82312E1EE1DAC0C3 /* libPods-TWCChallenge.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87FC1BDD83E186B8139815B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17572FC2056F5475C6C73AFD /* Pods-TWCChallenge.debug.xcconfig */,
+				B79118A5A273C3698F5B6E66 /* Pods-TWCChallenge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A36922071B97744D002C9DC7 = {
 			isa = PBXGroup;
 			children = (
 				A36922121B97744D002C9DC7 /* TWCChallenge */,
 				A369222C1B97744D002C9DC7 /* TWCChallengeTests */,
 				A36922111B97744D002C9DC7 /* Products */,
+				87FC1BDD83E186B8139815B7 /* Pods */,
+				4CE1E7BD892257D5E50D7197 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,10 +108,9 @@
 		A36922121B97744D002C9DC7 /* TWCChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				A36922171B97744D002C9DC7 /* AppDelegate.h */,
-				A36922181B97744D002C9DC7 /* AppDelegate.m */,
-				A369221A1B97744D002C9DC7 /* ViewController.h */,
-				A369221B1B97744D002C9DC7 /* ViewController.m */,
+				A369223E1B97768B002C9DC7 /* VideoCell */,
+				A369223A1B9774A5002C9DC7 /* ViewControllers */,
+				A36922391B97748A002C9DC7 /* AppDelegate */,
 				A369221D1B97744D002C9DC7 /* Main.storyboard */,
 				A36922201B97744D002C9DC7 /* Images.xcassets */,
 				A36922221B97744D002C9DC7 /* LaunchScreen.xib */,
@@ -119,6 +145,33 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A36922391B97748A002C9DC7 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				A36922171B97744D002C9DC7 /* AppDelegate.h */,
+				A36922181B97744D002C9DC7 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		A369223A1B9774A5002C9DC7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A369223B1B977633002C9DC7 /* VideoTableViewController.h */,
+				A369223C1B977633002C9DC7 /* VideoTableViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A369223E1B97768B002C9DC7 /* VideoCell */ = {
+			isa = PBXGroup;
+			children = (
+				A369223F1B9776B6002C9DC7 /* VideoCell.h */,
+				A36922401B9776B6002C9DC7 /* VideoCell.m */,
+			);
+			name = VideoCell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A36922331B97744D002C9DC7 /* Build configuration list for PBXNativeTarget "TWCChallenge" */;
 			buildPhases = (
+				98981F6E510323F7CB658750 /* Check Pods Manifest.lock */,
 				A369220C1B97744D002C9DC7 /* Sources */,
 				A369220D1B97744D002C9DC7 /* Frameworks */,
 				A369220E1B97744D002C9DC7 /* Resources */,
+				F68A033B139BF714E3A19145 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,12 +269,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		98981F6E510323F7CB658750 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F68A033B139BF714E3A19145 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TWCChallenge/Pods-TWCChallenge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A369220C1B97744D002C9DC7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A369221C1B97744D002C9DC7 /* ViewController.m in Sources */,
+				A369223D1B977633002C9DC7 /* VideoTableViewController.m in Sources */,
+				A36922411B9776B6002C9DC7 /* VideoCell.m in Sources */,
 				A36922191B97744D002C9DC7 /* AppDelegate.m in Sources */,
 				A36922161B97744D002C9DC7 /* main.m in Sources */,
 			);
@@ -345,6 +434,7 @@
 		};
 		A36922341B97744D002C9DC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17572FC2056F5475C6C73AFD /* Pods-TWCChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TWCChallenge/Info.plist;
@@ -355,6 +445,7 @@
 		};
 		A36922351B97744D002C9DC7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B79118A5A273C3698F5B6E66 /* Pods-TWCChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TWCChallenge/Info.plist;
@@ -416,6 +507,7 @@
 				A36922351B97744D002C9DC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A36922361B97744D002C9DC7 /* Build configuration list for PBXNativeTarget "TWCChallengeTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +516,7 @@
 				A36922381B97744D002C9DC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
